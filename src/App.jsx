@@ -30,7 +30,7 @@ export default function App() {
       />
       <div className="container mx-auto px-4 md:px-6 lg:px-8">
         {/* Hero section - featured first post */}
-        {postsData[0] && <Hero post={postsData[0]} />}
+        {category === "All" && postsData[0] && <Hero post={postsData[0]} />}
 
         {/* Blog list */}
         <BlogList

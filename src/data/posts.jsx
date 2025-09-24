@@ -1,3 +1,12 @@
+import ModernTech from "../assets/Modern-Technology.jpg"
+import Mesut from"../assets/mesut-kaya-eOcyhe5-9sQ-unsplash.jpg";
+import AnnapPelzer from"../assets/anna-pelzer-IGfIGP5ONV0-unsplash.jpg";
+import UIDesign from"../assets/UIUX.png";
+import Odiseo from"../assets/odiseo-castrejon-1SPu0KT-Ejg-unsplash.jpg";
+import JackWard from"../assets/jack-ward-rknrvCrfS1k-unsplash.jpg";
+import Technology from "../assets/Technology.jpg";
+import Images from "../assets/images.jpeg";
+
 export const postsData = [
   {
     id: 1,
@@ -5,7 +14,7 @@ export const postsData = [
     category: "Tech",
     description: "A deep dive into the latest AI trends...",
     date: "2025-09-01",
-    image: "public/Modern-Technology.jpg",
+    image: ModernTech,
   },
   {
     id: 2,
@@ -13,7 +22,7 @@ export const postsData = [
     category: "Travel",
     description: "An unforgettable journey through mountains...",
     date: "2025-08-20",
-    image: "public/mesut-kaya-eOcyhe5-9sQ-unsplash.jpg",
+    image: Mesut,
   },
   {
     id: 3,
@@ -21,7 +30,7 @@ export const postsData = [
     category: "Food",
     description: "Delicious and easy-to-make recipes...",
     date: "2025-08-10",
-    image: "public/anna-pelzer-IGfIGP5ONV0-unsplash.jpg",
+    image: AnnapPelzer,
   },
   {
     id: 4,
@@ -29,7 +38,7 @@ export const postsData = [
     category: "Tech",
     description: "Design patterns that are shaping the web...",
     date: "2025-09-15",
-    image: "public/UIUX.png",
+    image: UIDesign,
   },
   {
     id: 5,
@@ -37,7 +46,7 @@ export const postsData = [
     category: "Food",
     description: "Exploring flavors from around the world...",
     date: "2025-07-25",
-    image: "public/odiseo-castrejon-1SPu0KT-Ejg-unsplash.jpg",
+    image: Odiseo,
   },
   {
     id: 6,
@@ -45,7 +54,7 @@ export const postsData = [
     category: "Travel",
     description: "An unforgettable journey through mountains...",
     date: "2025-08-20", 
-    image: "public/jack-ward-rknrvCrfS1k-unsplash.jpg",
+    image:JackWard ,
   },
   {
     id: 7,
@@ -53,7 +62,7 @@ export const postsData = [
     category: "Tech",
     description: "A deep dive into the latest AI trends...",
     date: "2025-09-01",
-    image: "public/Technology.jpg",
+    image: Technology,
   },
   {
     id: 8,
@@ -61,6 +70,6 @@ export const postsData = [
     category: "Food",
     description: "Exploring flavors from around the world...",
     date: "2025-07-25",
-    image: "public/images.jpeg",
+    image: Images,
   },
 ];
