@@ -14,7 +14,7 @@ export default function BlogCard({ post }) {
     <div
       className="relative group rounded-[30px] overflow-hidden  
              bg-midgreen transition-transform duration-500 ease-in-out
-             hover:scale-[1.03] h-auto lg:h-80"
+             hover:scale-[1.03] h-80 lg:h-80"
       style={{ boxShadow: "5px 5px 20px #10352F" }}
       onClick={() => {
         if (isMobile) setOpen(!open);
